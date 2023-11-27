@@ -1,0 +1,37 @@
+body, #root {
+  min-height: 100vh;
+  position: relative;
+  background-color: whitesmoke;
+}
+
+nav {
+  min-height: 4rem;
+}
+
+.agregar-libro {
+  background-color: #0dcaf0;
+  border-radius: 100%;
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+}
+
+.agregar-libro:hover {
+  background-color: #48dcf9;
+  cursor: pointer;
+}
+
+.prestamo {
+  transition: all 0.4s;
+}
+
+.prestamo:hover {
+  background-color: #2a95aa !important;
+  cursor: pointer;
+}
